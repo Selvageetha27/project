@@ -6,16 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <div></div>
+    <div class="one">
+        <div class="two"><p>Home</p></div>
+        <div class="three"><p>Project</p>
+        <p>Contact</p></div>
+
+    </div>
     <style>
-        div{
-            width: 200px;
-            height: 200px;
-            background-color: beige;
+        .one{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        
         }
+        .three{
+            display: flex;
+            flex-direction:row ;
+        }
+       
         @media screen and (min-width:500px){
             div{
-                background-color: lightblue;
+                background-color: red;
             }
         }
     </style>
