@@ -66,8 +66,16 @@ h4{
 }
 .images{
     padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .pro{
     padding-left: 30px;
     padding-right: 30px;
+}
+.images img{
+     width: 23%;
+     padding: 8px;
+     
 }
