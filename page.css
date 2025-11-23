@@ -72,29 +72,42 @@ h4{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
 .pro{
     padding-left: 30px;
     padding-right: 30px;
 }
 .images img{
-     padding: 10px;
-     
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
 }
 .img1{
-    width: 23%;
+    width: 20%;
 }
-
-
 @media screen and (max-width:992px){
-    .images img{
-         width: 46%;
-    }
-    
+    .img1{
+    width: 50%;
+}
 }
 @media screen and (max-width:600px){
-    .images img{
-         width: 92%;
-    }
+    .img1{
+    width: 75%;
+}
+}
+.img1{
+    position: relative;
     
 }
+.images p{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
