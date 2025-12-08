@@ -201,3 +201,66 @@ h4 {
         width: 92%;
     }
 }
+.sec{
+    border-bottom: 1px solid grey;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+.contact p{
+    padding-top: 20px;
+}
+.item{
+    padding-top: 15px;
+}
+.section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.item input{
+    height: auto;
+    width: 98%;
+    padding: 10px;
+    
+}
+.in{
+    padding-bottom: 10px;
+}
+.but{
+    padding-top: 20px;
+}
+.btn{
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color:#ccc;
+    color: black;
+    
+}
+.last{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-top: 40px;
+     
+}
+.last img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.final{
+    width: 90%;
+}
+.foot{
+    
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: beige;
+    padding: 40px;
+    text-align: center;
+}
