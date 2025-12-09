@@ -185,12 +185,12 @@ h4 {
 .cont:hover {
     background-color: #ccc;
 }
-
-@media screen and (max-width:1024px) {
-    .people div {
+@media screen and (max-width:1108px){
+    .peope div{
         width: 23%;
     }
 }
+
 @media screen and (max-width:992px) {
     .people div {
         width: 46%;
@@ -201,6 +201,7 @@ h4 {
         width: 92%;
     }
 }
+
 .sec{
     border-bottom: 1px solid grey;
     padding-top: 60px;
@@ -210,6 +211,7 @@ h4 {
 .contact p{
     padding-top: 20px;
 }
+
 .item{
     padding-top: 15px;
 }
@@ -256,11 +258,12 @@ h4 {
     width: 90%;
 }
 .foot{
-    
-    height: auto;
     width: 100%;
     background-color: black;
     color: beige;
-    padding: 40px;
+    height: auto;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
